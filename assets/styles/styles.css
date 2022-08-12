@@ -1,0 +1,178 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    cursor: url('../images/glove-lg.png'), auto;
+}
+
+.container {
+    justify-content: center;
+    font-family: 'Lora', serif;
+    background-color: #151b20;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/backgroundDala.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    font-size: 3.5em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    color: rgb(250, 250, 250);
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+hr {
+    color: rgba(128, 128, 128, 0.25);
+    width: 40%;
+    margin: 0 auto;
+}
+
+a {
+    color: rgb(250, 250, 250);
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+    background-image: url('../images/blank.png');
+    color: #a5afaa;
+    border: 3.5px solid transparent;
+    border-radius: .6em;
+    padding: 2.8em;
+    /* transition: all 0.2s; */
+    background-repeat: no-repeat;
+}
+
+button:hover {
+    border-color: #fff8cc;
+    box-shadow: 0em 0em 1em 0em #fff8cc;
+    cursor: url('../images/glove-lg.png'), auto;
+}
+
+footer {
+    color: white;
+    font-size: .8em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+}
+
+.main {
+    border: solid 2px #939388;
+    border-radius: 10px;
+    background-image: url(../images/texture.png);
+    background-color: #0f0f3de8;
+    box-shadow: 0 0.1em 0.3em 0.1em rgba(0, 0, 0, 0.6);
+    margin: auto;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.decoration {
+    outline: 2px solid rgba(128, 128, 128, 0.4);
+    outline-offset: -5px;
+    border-radius: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.box {
+    background-color: #080824;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    margin: 30px;
+    padding: 1px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.navBtn {
+    border: solid 2px #939388;
+    background-image: none;
+    background-color: #0f0f3d;
+    width: 25em;
+    box-shadow: 0 0.1em 0.3em 0.1em rgba(0, 0, 0, 0.6);
+}
+
+.navText {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.secondMain {
+    max-width: 900px;
+}
+
+.innerHome {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.headerPad {
+    padding-top: 25px;
+}
+
+.trademark {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

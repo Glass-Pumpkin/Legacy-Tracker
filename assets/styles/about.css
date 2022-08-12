@@ -1,0 +1,58 @@
+.aboutText {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 1.5em;
+    padding: 3px;
+}
+
+.bottomNav {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+/* media queries */
+
+@media (max-width: 415px) {
+    .aboutText {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .secondMain {
+        max-width: 400px;
+    }
+
+    .aboutText {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    h1 {
+        text-align: center;
+        font-size: 2.8em;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .secondMain {
+        max-width: 350px;
+    }
+
+    .aboutText {
+        font-size: 1em;
+    }
+
+    .navBtn {
+        max-width: 300px;
+    }
+}
