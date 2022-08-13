@@ -111,7 +111,7 @@ function checkDiv(parent, child) {
 
 function grayscale(item, button) {
 	if (item.isOwned() === false) {
-		button.style["filter"] = "grayscale(100%)";
+		button.style["filter"] = "grayscale(100%) brightness(.55)";
 	} else {
 		button.style["filter"] = "none";
 	}
