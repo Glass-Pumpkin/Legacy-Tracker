@@ -85,7 +85,7 @@ const itemArray =
 			items: items.filter(item => item.category == 15)
 		},
 		{
-			itemPerRow: 4,
+			itemPerRow: 6,
 			rows: 1,
 			items: items.filter(item => item.category == 16)
 		}
@@ -166,8 +166,6 @@ itemArray.forEach((item) => {
 	let rowCount = item.rows;
 	let itemPerRow = item.itemPerRow;
 
-	//
-
 	let btnCounter = 0;
 	let rowCounter = 1;
 	for (let x = 0; x < rowCount; x++) {
@@ -230,6 +228,7 @@ itemArray.forEach((item) => {
 
 		if (realItem.name === "blankItem") {
 			itemBtn.style["filter"] = "none";
+			itemBtn.style["pointerEvents"] = "none";
 		}
 
 
@@ -250,26 +249,24 @@ window.onclick = e => {
 		editItem(clickedItem);
 	}
 	else if (modalOpen == true && e.target.className == "modal" || !(checkDiv(modal, e.target))) {
-		console.log("clicked outside");
 		modalOpen = false;
 		modal.style.display = "none";
 		scrollEnable();
 	}
 
 
-	/*
-	if (e.target.tagName == "BUTTON") {
-		let num = prompt("Enter a number...", "1");
-		if (num === null) {
-			return;
-		}
-		clickedItem.quantity = num;
-		grayscale(clickedItem, elementTarget)
-		if (clickedItem.category === 4) {
-			counter.innerHTML = "";
-		} else {
-			e.target.nextSibling.innerHTML = clickedItem.quantity;
-		}
-	}
-	*/
+	// if (e.target.tagName == "BUTTON") {
+	// 	let num = prompt("Enter a number...", "1");
+	// 	if (num === null) {
+	// 		return;
+	// 	}
+	// 	clickedItem.quantity = num;
+	// 	grayscale(clickedItem, elementTarget)
+	// 	if (clickedItem.category === 4) {
+	// 		counter.innerHTML = "";
+	// 	} else {
+	// 		e.target.nextSibling.innerHTML = clickedItem.quantity;
+	// 	}
+	// }
+
 };

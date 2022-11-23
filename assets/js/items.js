@@ -1,10 +1,17 @@
 let items = [
   {
+    "name": "blankItem",
+    "category": 11,
+    "priority": 34,
+    "quantity": 0,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Apprentice's Practice Materials",
     "backgroundPosX": -5,
     "backgroundPosY": -5,
     "category": 11,
-    "priority": 36,
+    "priority": 45,
     "quantity": 999,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -175,7 +182,7 @@ let items = [
     "backgroundPosX": -181,
     "backgroundPosY": -93,
     "category": 16,
-    "priority": 2,
+    "priority": 4,
     "quantity": 16,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -210,8 +217,8 @@ let items = [
     "name": "Black Urushi",
     "backgroundPosX": -1413,
     "backgroundPosY": -181,
-    "category": 11,
-    "priority": 35,
+    "category": 16,
+    "priority": 2,
     "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -274,7 +281,7 @@ let items = [
     "backgroundPosX": -1061,
     "backgroundPosY": -93,
     "category": 16,
-    "priority": 3,
+    "priority": 5,
     "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -284,7 +291,7 @@ let items = [
     "backgroundPosY": -93,
     "category": 14,
     "priority": 21,
-    "quantity": 249,
+    "quantity": 366,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -446,7 +453,7 @@ let items = [
     "backgroundPosY": -181,
     "category": 12,
     "priority": 4,
-    "quantity": 177,
+    "quantity": 176,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -798,7 +805,7 @@ let items = [
     "backgroundPosY": -445,
     "category": 11,
     "priority": 21,
-    "quantity": 31,
+    "quantity": 30,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -933,8 +940,8 @@ let items = [
     "backgroundPosX": -5,
     "backgroundPosY": -5,
     "category": 11,
-    "priority": 43,
-    "quantity": 20,
+    "priority": 41,
+    "quantity": 46,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -942,8 +949,8 @@ let items = [
     "backgroundPosX": -533,
     "backgroundPosY": -269,
     "category": 11,
-    "priority": 39,
-    "quantity": 11,
+    "priority": 37,
+    "quantity": 22,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -951,7 +958,7 @@ let items = [
     "backgroundPosX": -5,
     "backgroundPosY": -5,
     "category": 11,
-    "priority": 44,
+    "priority": 42,
     "quantity": 23,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -960,8 +967,8 @@ let items = [
     "backgroundPosX": -533,
     "backgroundPosY": -269,
     "category": 11,
-    "priority": 40,
-    "quantity": 4,
+    "priority": 38,
+    "quantity": 9,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -969,7 +976,7 @@ let items = [
     "backgroundPosX": -5,
     "backgroundPosY": -5,
     "category": 11,
-    "priority": 45,
+    "priority": 43,
     "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -978,8 +985,17 @@ let items = [
     "backgroundPosX": -533,
     "backgroundPosY": -269,
     "category": 11,
-    "priority": 41,
-    "quantity": 4,
+    "priority": 39,
+    "quantity": 17,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
+    "name": "Grade 5 Carbonized Matter",
+    "backgroundPosX": -5,
+    "backgroundPosY": -5,
+    "category": 11,
+    "priority": 44,
+    "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -987,8 +1003,8 @@ let items = [
     "backgroundPosX": -533,
     "backgroundPosY": -269,
     "category": 11,
-    "priority": 42,
-    "quantity": 7,
+    "priority": 40,
+    "quantity": 33,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1142,7 +1158,7 @@ let items = [
     "backgroundPosY": -533,
     "category": 6,
     "priority": 12,
-    "quantity": 66,
+    "quantity": 95,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1258,7 +1274,7 @@ let items = [
     "backgroundPosX": -797,
     "backgroundPosY": -621,
     "category": 16,
-    "priority": 4,
+    "priority": 6,
     "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1358,7 +1374,7 @@ let items = [
     "backgroundPosY": -709,
     "category": 7,
     "priority": 34,
-    "quantity": 99,
+    "quantity": 98,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1474,7 +1490,7 @@ let items = [
     "backgroundPosX": -93,
     "backgroundPosY": -797,
     "category": 11,
-    "priority": 38,
+    "priority": 36,
     "quantity": 9,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1483,7 +1499,7 @@ let items = [
     "backgroundPosX": -5,
     "backgroundPosY": -797,
     "category": 11,
-    "priority": 37,
+    "priority": 35,
     "quantity": 127,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1511,7 +1527,7 @@ let items = [
     "backgroundPosY": -797,
     "category": 5,
     "priority": 4,
-    "quantity": 26,
+    "quantity": 25,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1556,7 +1572,7 @@ let items = [
     "backgroundPosY": -797,
     "category": 13,
     "priority": 3,
-    "quantity": 14,
+    "quantity": 13,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1637,7 +1653,7 @@ let items = [
     "backgroundPosY": -885,
     "category": 7,
     "priority": 31,
-    "quantity": 31,
+    "quantity": 30,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1824,8 +1840,8 @@ let items = [
     "name": "Raw Urushi",
     "backgroundPosX": -1413,
     "backgroundPosY": -181,
-    "category": 11,
-    "priority": 34,
+    "category": 16,
+    "priority": 1,
     "quantity": 18,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1889,7 +1905,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 12,
     "priority": 5,
-    "quantity": 747,
+    "quantity": 845,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1942,7 +1958,7 @@ let items = [
     "backgroundPosX": -269,
     "backgroundPosY": -1061,
     "category": 16,
-    "priority": 1,
+    "priority": 3,
     "quantity": 209,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -2205,7 +2221,7 @@ let items = [
     "backgroundPosY": -1149,
     "category": 1,
     "priority": 10,
-    "quantity": 45,
+    "quantity": 44,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2313,7 +2329,7 @@ let items = [
     "backgroundPosY": -1237,
     "category": 7,
     "priority": 30,
-    "quantity": 23,
+    "quantity": 22,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
