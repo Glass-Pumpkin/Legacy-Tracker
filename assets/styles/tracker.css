@@ -89,6 +89,7 @@
     margin: 20px;
     margin-top: -5px;
     padding: 1px;
+    user-select: none;
 }
 
 #quantity {
