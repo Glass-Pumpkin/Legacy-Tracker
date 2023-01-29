@@ -1410,7 +1410,7 @@ let items = [
     "backgroundPosY": -709,
     "category": 11,
     "priority": 22,
-    "quantity": 1,
+    "quantity": 2,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
