@@ -50,8 +50,8 @@ const itemArray =
 			items: items.filter(item => item.category == 8)
 		},
 		{
-			itemPerRow: 6,
-			rows: 2,
+			itemPerRow: 7,
+			rows: 4,
 			items: items.filter(item => item.category == 9)
 		},
 		{

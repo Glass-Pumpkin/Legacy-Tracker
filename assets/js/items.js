@@ -133,11 +133,20 @@ let items = [
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
+    "name": "Bind Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -533,
+    "category": 9,
+    "priority": 25,
+    "quantity": 1,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Bitter Heart Chocolate",
     "backgroundPosX": -1237,
     "backgroundPosY": -5,
     "category": 9,
-    "priority": 10,
+    "priority": 4,
     "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -152,11 +161,11 @@ let items = [
   },
   {
     "name": "Black Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -5,
+    "backgroundPosY": -93,
+    "category": 9,
+    "priority": 16,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -232,6 +241,15 @@ let items = [
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
+    "name": "Blind Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -621,
+    "category": 9,
+    "priority": 21,
+    "quantity": 3,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Blood Red Dye",
     "backgroundPosX": -621,
     "backgroundPosY": -93,
@@ -269,11 +287,11 @@ let items = [
   },
   {
     "name": "Blue Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -973,
+    "backgroundPosY": -93,
+    "category": 9,
+    "priority": 12,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -309,7 +327,7 @@ let items = [
     "backgroundPosY": -93,
     "category": 11,
     "priority": 31,
-    "quantity": 1,
+    "quantity": 100,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -327,7 +345,7 @@ let items = [
     "backgroundPosY": -181,
     "category": 10,
     "priority": 3,
-    "quantity": 327,
+    "quantity": 337,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -489,7 +507,7 @@ let items = [
     "backgroundPosY": -269,
     "category": 7,
     "priority": 4,
-    "quantity": 674,
+    "quantity": 715,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -503,11 +521,11 @@ let items = [
   },
   {
     "name": "Clear Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -445,
+    "backgroundPosY": -269,
+    "category": 9,
+    "priority": 13,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -525,7 +543,7 @@ let items = [
     "backgroundPosY": -269,
     "category": 2,
     "priority": 4,
-    "quantity": 145,
+    "quantity": 181,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -542,7 +560,7 @@ let items = [
     "backgroundPosX": -357,
     "backgroundPosY": -885,
     "category": 9,
-    "priority": 11,
+    "priority": 5,
     "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -607,7 +625,7 @@ let items = [
     "backgroundPosY": -269,
     "category": 11,
     "priority": 12,
-    "quantity": 14,
+    "quantity": 17,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -633,7 +651,7 @@ let items = [
     "backgroundPosX": -797,
     "backgroundPosY": -1325,
     "category": 9,
-    "priority": 2,
+    "priority": 6,
     "quantity": 22,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -652,7 +670,7 @@ let items = [
     "backgroundPosY": -357,
     "category": 6,
     "priority": 10,
-    "quantity": 142,
+    "quantity": 153,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -841,7 +859,7 @@ let items = [
     "backgroundPosY": -445,
     "category": 15,
     "priority": 16,
-    "quantity": 766,
+    "quantity": 781,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -860,7 +878,7 @@ let items = [
     "backgroundPosY": -445,
     "category": 11,
     "priority": 14,
-    "quantity": 23,
+    "quantity": 24,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1037,11 +1055,11 @@ let items = [
   },
   {
     "name": "Green Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -181,
+    "backgroundPosY": -533,
+    "category": 9,
+    "priority": 18,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1112,8 +1130,17 @@ let items = [
     "backgroundPosX": -1237,
     "backgroundPosY": -5,
     "category": 9,
-    "priority": 8,
+    "priority": 2,
     "quantity": 4,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
+    "name": "Heavy Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -709,
+    "category": 9,
+    "priority": 26,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1166,7 +1193,7 @@ let items = [
     "backgroundPosX": -1325,
     "backgroundPosY": -533,
     "category": 9,
-    "priority": 6,
+    "priority": 10,
     "quantity": 58,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1221,7 +1248,7 @@ let items = [
     "backgroundPosY": -621,
     "category": 11,
     "priority": 11,
-    "quantity": 30,
+    "quantity": 65,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1257,7 +1284,7 @@ let items = [
     "backgroundPosY": -621,
     "category": 1,
     "priority": 5,
-    "quantity": 345,
+    "quantity": 383,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1356,7 +1383,7 @@ let items = [
     "backgroundPosY": -709,
     "category": 12,
     "priority": 1,
-    "quantity": 42,
+    "quantity": 43,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1517,8 +1544,8 @@ let items = [
     "backgroundPosX": -269,
     "backgroundPosY": -797,
     "category": 9,
-    "priority": 4,
-    "quantity": 6,
+    "priority": 8,
+    "quantity": 7,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1572,7 +1599,7 @@ let items = [
     "backgroundPosY": -797,
     "category": 13,
     "priority": 3,
-    "quantity": 13,
+    "quantity": 20,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1607,7 +1634,7 @@ let items = [
     "backgroundPosX": -1149,
     "backgroundPosY": -797,
     "category": 9,
-    "priority": 1,
+    "priority": 27,
     "quantity": 14,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1644,7 +1671,7 @@ let items = [
     "backgroundPosY": -5,
     "category": 7,
     "priority": 16,
-    "quantity": 95,
+    "quantity": 165,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1654,6 +1681,15 @@ let items = [
     "category": 7,
     "priority": 31,
     "quantity": 30,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
+    "name": "Poison Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -797,
+    "category": 9,
+    "priority": 22,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1679,17 +1715,17 @@ let items = [
     "backgroundPosX": -357,
     "backgroundPosY": -885,
     "category": 9,
-    "priority": 9,
+    "priority": 3,
     "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
     "name": "Purple Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -445,
+    "backgroundPosY": -885,
+    "category": 9,
+    "priority": 14,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1707,7 +1743,7 @@ let items = [
     "backgroundPosY": -885,
     "category": 11,
     "priority": 13,
-    "quantity": 30,
+    "quantity": 33,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1806,7 +1842,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 1,
     "priority": 3,
-    "quantity": 380,
+    "quantity": 423,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1833,7 +1869,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 7,
     "priority": 3,
-    "quantity": 44,
+    "quantity": 56,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1842,7 +1878,7 @@ let items = [
     "backgroundPosY": -181,
     "category": 16,
     "priority": 1,
-    "quantity": 18,
+    "quantity": 44,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1874,11 +1910,11 @@ let items = [
   },
   {
     "name": "Red Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -797,
+    "backgroundPosY": -973,
+    "category": 9,
+    "priority": 11,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1905,7 +1941,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 12,
     "priority": 5,
-    "quantity": 944,
+    "quantity": 967,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1922,7 +1958,7 @@ let items = [
     "backgroundPosX": -1325,
     "backgroundPosY": -973,
     "category": 9,
-    "priority": 5,
+    "priority": 9,
     "quantity": 25,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -1977,7 +2013,7 @@ let items = [
     "backgroundPosY": -1061,
     "category": 13,
     "priority": 6,
-    "quantity": 797,
+    "quantity": 857,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1990,12 +2026,21 @@ let items = [
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
+    "name": "Silence Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -885,
+    "category": 9,
+    "priority": 20,
+    "quantity": 3,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Silver Dust",
     "backgroundPosX": -621,
     "backgroundPosY": -1061,
     "category": 10,
     "priority": 10,
-    "quantity": 15,
+    "quantity": 20,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2053,6 +2098,24 @@ let items = [
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
+    "name": "Sleep Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -973,
+    "category": 9,
+    "priority": 24,
+    "quantity": 3,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
+    "name": "Slow Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -1061,
+    "category": 9,
+    "priority": 19,
+    "quantity": 3,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Speed Belt",
     "backgroundPosX": -1237,
     "backgroundPosY": -1061,
@@ -2107,6 +2170,15 @@ let items = [
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
+    "name": "Stun Ward Potion",
+    "backgroundPosX": -1413,
+    "backgroundPosY": -1149,
+    "category": 9,
+    "priority": 23,
+    "quantity": 3,
+    "isOwned": (function (a) { return this.quantity > 0 ? true : false })
+  },
+  {
     "name": "Sunflower Seeds",
     "backgroundPosX": -181,
     "backgroundPosY": -1149,
@@ -2130,7 +2202,7 @@ let items = [
     "backgroundPosY": -1149,
     "category": 11,
     "priority": 4,
-    "quantity": 15,
+    "quantity": 16,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2203,7 +2275,7 @@ let items = [
     "backgroundPosY": -1149,
     "category": 11,
     "priority": 9,
-    "quantity": 10,
+    "quantity": 11,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2212,7 +2284,7 @@ let items = [
     "backgroundPosY": -1149,
     "category": 11,
     "priority": 8,
-    "quantity": 34,
+    "quantity": 38,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2266,7 +2338,7 @@ let items = [
     "backgroundPosY": -1237,
     "category": 15,
     "priority": 20,
-    "quantity": 115,
+    "quantity": 120,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2320,7 +2392,7 @@ let items = [
     "backgroundPosY": -5,
     "category": 7,
     "priority": 15,
-    "quantity": 823,
+    "quantity": 883,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2329,7 +2401,7 @@ let items = [
     "backgroundPosY": -1237,
     "category": 7,
     "priority": 30,
-    "quantity": 22,
+    "quantity": 30,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2365,7 +2437,7 @@ let items = [
     "backgroundPosY": -1237,
     "category": 1,
     "priority": 7,
-    "quantity": 320,
+    "quantity": 329,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2391,17 +2463,17 @@ let items = [
     "backgroundPosX": -357,
     "backgroundPosY": -885,
     "category": 9,
-    "priority": 7,
+    "priority": 1,
     "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
     "name": "White Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -1237,
+    "backgroundPosY": -1237,
+    "category": 9,
+    "priority": 15,
+    "quantity": 3,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2508,7 +2580,7 @@ let items = [
     "backgroundPosX": -181,
     "backgroundPosY": -357,
     "category": 9,
-    "priority": 3,
+    "priority": 7,
     "quantity": 47,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
@@ -2523,11 +2595,11 @@ let items = [
   },
   {
     "name": "Yellow Drop",
-    "backgroundPosX": 0,
-    "backgroundPosY": 0,
-    "category": 0,
-    "priority": 0,
-    "quantity": 0,
+    "backgroundPosX": -973,
+    "backgroundPosY": -1325,
+    "category": 9,
+    "priority": 17,
+    "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
