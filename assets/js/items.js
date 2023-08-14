@@ -192,7 +192,7 @@ let items = [
     "backgroundPosY": -93,
     "category": 16,
     "priority": 4,
-    "quantity": 16,
+    "quantity": 15,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -210,7 +210,7 @@ let items = [
     "backgroundPosY": -93,
     "category": 15,
     "priority": 32,
-    "quantity": 24,
+    "quantity": 23,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -300,7 +300,7 @@ let items = [
     "backgroundPosY": -93,
     "category": 16,
     "priority": 5,
-    "quantity": 5,
+    "quantity": 6,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -471,7 +471,7 @@ let items = [
     "backgroundPosY": -181,
     "category": 12,
     "priority": 4,
-    "quantity": 176,
+    "quantity": 188,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -769,7 +769,7 @@ let items = [
     "backgroundPosY": -5,
     "category": 7,
     "priority": 21,
-    "quantity": 0,
+    "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1104,7 +1104,7 @@ let items = [
     "backgroundPosY": -533,
     "category": 15,
     "priority": 31,
-    "quantity": 3,
+    "quantity": 4,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1617,7 +1617,7 @@ let items = [
     "backgroundPosY": -797,
     "category": 13,
     "priority": 5,
-    "quantity": 8,
+    "quantity": 30,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1887,7 +1887,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 15,
     "priority": 38,
-    "quantity": 0,
+    "quantity": 1,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1932,7 +1932,7 @@ let items = [
     "backgroundPosY": -973,
     "category": 15,
     "priority": 23,
-    "quantity": 11,
+    "quantity": 10,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -1986,7 +1986,7 @@ let items = [
     "backgroundPosY": -1061,
     "category": 12,
     "priority": 3,
-    "quantity": 15,
+    "quantity": 14,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2491,7 +2491,7 @@ let items = [
     "backgroundPosY": -1325,
     "category": 15,
     "priority": 18,
-    "quantity": 0,
+    "quantity": 2,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
@@ -2644,7 +2644,7 @@ let items = [
     "backgroundPosY": -5,
     "category": 7,
     "priority": 28,
-    "quantity": 21,
+    "quantity": 20,
     "isOwned": (function (a) { return this.quantity > 0 ? true : false })
   },
   {
